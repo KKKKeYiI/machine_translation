@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Datasets and experiment outputs
+data/
+datasets/
+outputs/
+checkpoints/
+runs/
+logs/
+reports/build/*
+!reports/build/build_lora_figures.py
+!reports/build/build_lora_pptx.py
+
+# Model weights and generated artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Jupyter and local tooling
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
